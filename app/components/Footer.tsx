@@ -6,8 +6,8 @@ const companies = ["About Us", "Blog", "Media", "Contact Us"];
 
 function Footer() {
   return (
-    <div className="w-full bg-[#305F64] hidden md:flex flex-col gap-[36px] h-[442px] ">
-      <div className="pt-[18vh] max-w-[1200px] flex mx-auto  ">
+    <div className="w-full bg-[#305F64] hidden  md:flex flex-col gap-[36px] h-[700px] max-h-[10000px] md:h-[442px] ">
+      <div className="pt-[18vh] max-w-[1200px] flex flex-col md:flex-row mx-auto  ">
         <div className="flex flex-col mr-[160px] max-w-[308px]">
           <h1 className="font-bold text-[24px] leading-[30px] mb-4">
             DudeShape

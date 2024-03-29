@@ -12,7 +12,7 @@ function Hero() {
           All of our furniture uses the best materials and choices for our
           customers.All of our furniture uses the best materials{" "}
         </p>
-        <button className="py-[10px] px-[32px] bg-white text-[12px] text-[#154444] max-w-[149px] md:max-w-[210px]  leading-[20px] md:py-[18px] md:px-[36px] md:text-[20px] md:leading-[25px]">
+        <button className="py-[10px] hover:bg-[#eee] hover:px-[40px] hover:max-w-[250px]   transition-all hover:translate-x-4 hover: px-[32px] bg-white text-[12px] text-[#154444] max-w-[149px] md:max-w-[210px]  leading-[20px] md:py-[18px] md:px-[36px] md:text-[20px] md:leading-[25px]">
           Explore More
         </button>
       </div>

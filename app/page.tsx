@@ -8,11 +8,12 @@ import AFurnetire from "./components/AFurnetire";
 import Custumers from "./components/Custumers";
 import Follow from "./components/Follow";
 import Footer from "./components/Footer";
+import Drower from "./components/Drower";
 
 export default function Home() {
   return (
     <>
-      <div className="md:max-w-[1200px] mx-auto">
+      <div className="md:max-w-[1200px] transition-all mx-auto bg-white">
         <Header />
         <Hero />
         <Companies />
@@ -22,6 +23,7 @@ export default function Home() {
         <Custumers />
         <Follow />
       </div>
+      <Drower />
       <Footer />
     </>
   );

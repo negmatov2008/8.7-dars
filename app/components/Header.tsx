@@ -7,7 +7,7 @@ function Header() {
       <span className="text-[#244D4D] text-[24px] font-[700]">DudeShape</span>
       <div className=" hidden md:flex gap-[50px] ">
         {menuArr.map((e, i) => (
-          <span key={i} className="text-[#161616]  leading-[20px] ">
+          <span key={i} className="text-[#161616]  cursor-pointer  leading-[20px] ">
             {e}
           </span>
         ))}
@@ -19,13 +19,18 @@ function Header() {
         width={78}
         alt="Right Nav"
       />
-      <Image
-        className=" block md:hidden"
-        src={"menu.svg"}
-        height={22}
-        width={31}
-        alt="Menu"
-      />
+      <label
+        htmlFor="my-drawer-4"
+        className="drawer-button btn bg-white border-[0px] btn-primary"
+      >
+        <Image
+          className=" block md:hidden"
+          src={"menu.svg"}
+          height={22}
+          width={31}
+          alt="Menu"
+        />
+      </label>
     </div>
   );
 }

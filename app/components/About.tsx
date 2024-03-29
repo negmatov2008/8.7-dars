@@ -21,11 +21,12 @@ const info = [
 
 function About() {
   return (
-    <div className="max-w-full flex flex-col mb-[60vh] md:mb-[100px] gap-8 md:flex-row-reverse md:gap-0 pl-[20px] md:pl-0 items-center  md:justify-between ">
+    <div className="max-w-full flex flex-col mb-[10vh] md:mb-[100px] gap-8 md:flex-row-reverse md:gap-0 pl-[20px] md:pl-0 items-center  md:justify-between ">
       <div className="flex flex-col gap-6">
         <div className="flex flex-col gap-3">
           <h2 className="text-[#244D4D] font-[600] text-[24px]  leading-[40px] md:font-[700] md:text-[32px] ">
             About Us
+           
           </h2>
           <p className="text-[12px] text-[#444444] max-w-[322px] md:max-w-[436px] leading-[19px] md:text-[20px] md:leading-[25px]">
             All of our furniture uses the best materials and choices for our

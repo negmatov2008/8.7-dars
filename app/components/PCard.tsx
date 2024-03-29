@@ -6,7 +6,7 @@ function PCard(props: { img: string }) {
   const [love, setLove] = useState<Boolean>(false);
   const { img } = props;
   return (
-    <div className=" hidden md:flex flex-col max-w-[380px] shadow-[0px_13px_26px_0px_#00000012]">
+    <div className="flex flex-col max-w-[380px] shadow-[0px_13px_26px_0px_#00000012]">
       <Image width={380} height={247} alt="furture" src={`/${img}`} />
 
       <div className=" max-w-full bg-[#FFFFFF]  py-5 px-4 flex flex-col gap-4">
